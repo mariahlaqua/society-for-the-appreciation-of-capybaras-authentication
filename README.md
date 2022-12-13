@@ -49,6 +49,7 @@ Open your browser and head to "localhost:PORT". You can now signup, login, etc. 
 - [ ] In-browser password reset flow with tokens
 - [ ] Configure sessions (this is started) :warning:
 - [ ] Google ReCaptchav3 on forms :warning:
+- [ ] The UI is ugly :warning:
 
 ### A note on the tests
 
