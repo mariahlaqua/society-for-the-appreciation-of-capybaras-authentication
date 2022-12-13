@@ -54,4 +54,4 @@ Open your browser and head to "localhost:PORT". You can now signup, login, etc. 
 
 They are a bit hacky! These are just bits I wrote while building this to see outputs and/or check something was working.
 
-[A capybara with a butterfly](/public/images/capybara.jpg)
+![A capybara with a butterfly](/public/images/capybara.jpg)
