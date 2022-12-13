@@ -29,9 +29,9 @@ In the root directory, create a file named ".env" with the following fields:
 
 ```DB_USER = 'your database user name'```
 
-Make sure your database server is live. Navigate to the ```root/models/User.js``` file and run it with the following CLI command:
+Make sure your database server is live. Navigate to the ```root/models/User.js``` file and run it with the following CLI command: ```node user.js``` 
 
-```node user.js``` You should get a console message telling you the database synced successfully.
+You should get a console message telling you the database synced successfully.
 
 Once you've assured that your database is connected, you can fire up the server with the following command:
 
