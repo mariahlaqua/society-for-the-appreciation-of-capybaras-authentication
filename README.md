@@ -52,6 +52,7 @@ Open your browser and head to "localhost:PORT". You can now signup, login, etc. 
 - [ ] Configure sessions (this is started) :warning:
 - [ ] Google ReCaptchav3 on forms :warning:
 - [ ] The UI is ugly :warning:
+- [ ] Move session configuration into its own file
 
 ### A note on the tests
 
