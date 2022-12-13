@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SFTAC Login</title>
+</head>
+<body>
+    <main>
+    <div class="centered-element">
+    <h1 class="centered-child">Welcome back.</h1>
+    <% if(typeof errors !== "undefined"){ %>
+        <% errors.forEach( el => {%>
+            <div class="alert centered-child"><%= el.msg%></div>
+        <% }) %>
+    <% } %>
+    <form method="post" action="/login" class="centered-child">
+        <input type="email" name="email" placeholder="Email" class="centered-child">
+        <input type="password" name="password" placeholder="Password" class="centered-child">
+        <button type="submit">Login</button>
+    </form>
+    </div>
+    </main>
+</body>
+</html>

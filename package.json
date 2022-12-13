@@ -1,0 +1,27 @@
+{
+  "name": "tbb2",
+  "version": "1.0.0",
+  "description": "backend authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-router": "^0.0.1",
+    "express-session": "^1.17.3",
+    "express-session-sequelize": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.27.0",
+    "validator": "^13.7.0"
+  }
+}
