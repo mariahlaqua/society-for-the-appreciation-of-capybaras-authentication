@@ -8,7 +8,9 @@ Database: MySQL, with tables for users and sessions.
 Backend and Middleware: Node.js, Express.js, Sequelize, Validator.js, bcrypt, morgan and more!
 Frontend: EJS and CSS
 
-## Notes on current stage of development
+## Notes on development
+
+This app uses the model-view-controller architecture.
 
 As this was my first project with MySQL and Sequelize, I faced some uncertainty with how to set up sessions. Currently sessions are initialized but they are not persistent, nor are they tied to the user upon logging in.
 
