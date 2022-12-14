@@ -1,3 +1,12 @@
+/****
+ * PURPOSE: Configure the server. What to use, how to use it.
+ * 
+ * Future optimizations:
+ *  - move the session configuration to it's own file within config, and import that
+ *  - tie session to login
+ */
+
+
 const express = require('express');
 const app = express(); 
 const ejs = require('ejs') 
@@ -19,7 +28,7 @@ app.use(express.static('./public'));
 //set view engine
 app.set('view engine', 'ejs');
 
-// formatting the http, req.body json, morgan to make logging easier to read
+// formatting the http, req.body in json, morgan to make logging easier to read
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(logger("dev"))

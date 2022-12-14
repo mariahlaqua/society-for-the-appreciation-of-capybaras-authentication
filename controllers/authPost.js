@@ -9,6 +9,7 @@
  *  - Login form has minimal validation
  *  - Max password length validation to prevent DOS attacks
  *  - Additional input sanitization/validation
+ *  - google recaptcha v3 to help minimize spam
  * 
  ********/
 

@@ -1,3 +1,10 @@
+/*******
+ *  Tests I wrote related to the database.
+ * 
+ */
+
+
+
 const { Sequelize, Model } = require('sequelize')
 require("dotenv").config({ path: '../.env' });
 const seq = require('../config/seqInstance')
@@ -14,9 +21,11 @@ const bcrypt = require('bcrypt');
 //         console.log(error)
 //     }
 // };
-// dbConnection();
+//     dbConnection();
 
-//// test User export with query
+
+
+//// test findAll to see 
 
 // async function getUsers() {
 //  try{
