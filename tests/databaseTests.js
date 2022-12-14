@@ -25,7 +25,7 @@ const bcrypt = require('bcrypt');
 
 
 
-//// test findAll to see 
+//// test findAll output
 
 // async function getUsers() {
 //  try{
