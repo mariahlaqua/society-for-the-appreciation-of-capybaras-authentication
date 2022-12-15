@@ -43,6 +43,30 @@ Once you've assured that your database is connected, you can fire up the server 
 
 Open your browser and head to "localhost:PORT". You can now signup, login, etc. Have fun and find the capybara photo.
 
+## Understanding the Directory
+
+```
+├───config
+|   └───database.js                 # configures the database connection
+├───controllers
+|   ├───authPost.js                 # responds to all POST requests that require Authentication
+│   └───get.js                      # responds to all GET requests for page redirection
+├───models
+│   └───User.js                     # configures the User model with Sequelize, including password validation and login logging methods
+├───public                          # all assets such as images and stylesheets
+│   ├───images
+│   └───styles.css
+├───routes                          # routes all requests to appropriate controller
+│   └───home.js
+├───tests
+│   ├───databaseTests.js            # tests database connection and syncing
+│   └───testValidPassword.js        # tests validPassword from User.js model
+├───views                           # all .ejs files for rendering views in browser
+├───server.js                       # tell node / express what to use and how to use
+└───package.json                    # all node packages
+```
+
+
 ## Future Optimizations
 :warning: = If the SFTAC was real, which it should be, these would be important to fix.
 
