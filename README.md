@@ -45,6 +45,8 @@ Open your browser and head to "localhost:PORT". You can now signup, login, etc. 
 
 ## Understanding the Directory
 
+Below is an overview of the directory and files, and what they do. Additionally, at the top of each file, it's purpose is stated along with any other significant features.
+
 ```
 ├───config
 |   └───database.js                 # configures the database connection
